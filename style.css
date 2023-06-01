@@ -24,7 +24,6 @@ ul {
 }
 
 body {
-  /* position: relative; */
   background-color: #f7f7f9;
   height: 718px;
   left: 0;
@@ -54,7 +53,6 @@ header {
 }
 
 .headline-main {
-  /* max-height: 800px; */
   min-height: 615px;
   width: auto;
   display: flex;
