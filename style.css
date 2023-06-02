@@ -131,11 +131,11 @@ i {
 }
 
 /* Works Section Styling Starts Here */
-.works{
+.works {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
- 
 }
+
 .works-card {
   color: #172b4d;
   background-color: #fff;
