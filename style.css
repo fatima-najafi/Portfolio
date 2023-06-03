@@ -284,6 +284,7 @@ button[disabled] {
   font-size: 20px;
   line-height: 24px;
 }
+
 .skills {
   display: flex;
   justify-content: space-between;
@@ -306,8 +307,6 @@ button[disabled] {
   padding-right: 150px;
   margin-top: 8px;
 }
-
-
 
 .about-skills-container {
   display: flex;
