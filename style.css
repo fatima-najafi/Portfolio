@@ -285,7 +285,7 @@ button[disabled] {
   line-height: 24px;
 }
 
-.skills {
+.skills-1 {
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -298,7 +298,7 @@ button[disabled] {
   margin-right: -12px;
 }
 
-.skills li {
+.skills-1 li {
   display: flex;
   list-style-type: none;
   align-items: center;
