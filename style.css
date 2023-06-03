@@ -284,6 +284,30 @@ button[disabled] {
   font-size: 20px;
   line-height: 24px;
 }
+.skills {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  font-style: normal;
+  margin-left: -20px;
+  margin-right: -12px;
+}
+
+.skills li {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  background: #f7f7f9;
+  border-radius: 8px;
+  padding-right: 150px;
+  margin-top: 8px;
+}
+
+
 
 .about-skills-container {
   display: flex;
