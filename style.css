@@ -362,7 +362,7 @@ button[disabled] {
   background-position-x: right;
 }
 
-.contact-me-form-heading{
+.contact-me-form-heading {
   text-align: center;
   margin-top: 0.75em;
   font-family: inherit;
@@ -382,8 +382,8 @@ button[disabled] {
   line-height: 28px;
   color: #ebebff;
 }
- 
-.contact-me-form{
+
+.contact-me-form {
   display: flex;
   flex-direction: column;
   margin-top: 0.75em;
