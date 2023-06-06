@@ -26,9 +26,6 @@
     <!--headline section starts-->
     <section class="headline-main">
       <section class="headline">
-
-       
-
         <h1 class="headline-heading">I'm Fatima.<br />Glad to see you!</h1>
 
         <p class="headline-paragraph">
@@ -260,30 +257,33 @@
       </div>
     </section>
     <!-- Contact Me Section Starts -->
-    <div class="contact-me-form-container">
-      <h1 class="contact-me-form-heading">Contact me</h1>
-      <p class="contact-me-form-paragraph">
-        If you have an application you are interested in developing, a feature
+    <section class="contact-me-form-container">
+        <h1 class="contact-me-form-heading">
+            Contact me
+        </h1>
+        <p class="contact-me-form-paragraph">
+            If you have an application you are interested in developing, a feature
         that you need built or a project that needs coding. I'd love to help
         with it
       </p>
-      <form  class="contact-me-form">
+      <form  action="https://formspree.io/f/xpzebdqb"
+      method="POST" class="contact-me-form">
         <input
           class="contact-me-form-text-input"
           required
           maxlength="30"
           name="name"
           type="text"
-          placeholder="Your good name"
-        />
-        <input
+          placeholder="Your good name">
+          <input
           class="contact-me-form-text-input"
+          pattern="[^ @]*@[^ @]*"
           required
           name="email"
           type="email"
           placeholder="Your email address"
         />
-        <textarea
+          <textarea
           class="contact-me-form-text-input"
           required
           maxlength="500"
@@ -292,13 +292,18 @@
           rows="9"
           placeholder="Write your message here"
         ></textarea>
-        <button class="contact-me-form-button" type="submit">
+         <button class="contact-me-form-button" type="submit">
           Get In Touch
         </button>
-      </form>
-    </div>
+
+      </form>    
+  </section>
     <!-- Contact Me Section Ends -->
 
   
+
+
+
+    
   </body>
 </html>
