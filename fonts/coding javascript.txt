@@ -1,0 +1,42 @@
+function multiplyAll(arr) {
+  let product = 1;
+  // Only change code below this line
+    for (let i = 0; i < arr.length; i++) {
+  for (let j = 0; j < arr[i].length; j++) {
+      product *= arr[i][j];
+  }
+  
+  }
+  // Only change code above this line
+  return product;
+}
+
+multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
+multiplyAll([[1], [2], [3]])
+--------------------
+// Setup
+const myArray = [];
+let i = 10;
+
+// Only change code below this line
+ do{
+  myArray.push(i);
+  i++;
+}while (i < 5);
+====================================
+  function multiply(arr, n) {
+    let product = 1;
+    for (let i = 0; i < n; i++) {
+      product *= arr[i];
+    }
+    return product;
+  }
+However, notice that multiply(arr, n) == multiply(arr, n - 1) * arr[n - 1]. That means you can rewrite multiply in terms of itself and never need to use a loop.
+
+  function multiply(arr, n) {
+    if (n <= 0) {
+      return 1;
+    } else {
+      return multiply(arr, n - 1) * arr[n - 1];
+    }
+  }
