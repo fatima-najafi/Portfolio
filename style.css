@@ -56,6 +56,7 @@ header {
   left: 76px;
   animation: color-change 1s ease-in-out;
 }
+
 @keyframes color-change {
   0% {
     color: burlywood;
