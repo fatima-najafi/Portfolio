@@ -59,15 +59,15 @@ header {
 
 @keyframes color-change {
   0% {
-    color: burlywood;
+    color: rgb(247, 143, 8);
   }
 
   50% {
-    color: #1662e7;
+    color: #0a5eee;
   }
 
   100% {
-    color: rgb(250, 13, 13);
+    color: rgb(83, 37, 37);
   }
 }
 
@@ -199,10 +199,11 @@ i {
   from {
     transform: scale(0);
   }
-
+  
   to {
     transform: scale(1);
   }
+  
 }
 
 .works-card-heading-large {
