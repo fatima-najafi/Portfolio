@@ -199,11 +199,10 @@ i {
   from {
     transform: scale(0);
   }
-  
+
   to {
     transform: scale(1);
   }
-  
 }
 
 .works-card-heading-large {
