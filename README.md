@@ -68,7 +68,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Demo link i](https://fatima-najafi.github.io/Portfolio/)
+- [Live Demo link](https://fatima-najafi.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
