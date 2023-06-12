@@ -53,6 +53,7 @@ header {
 .logo > a {
   text-decoration: none;
   color: inherit;
+  font-weight: bold;
   left: 76px;
   animation: color-change 1s ease-in-out;
 }
