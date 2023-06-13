@@ -53,21 +53,22 @@ header {
 .logo > a {
   text-decoration: none;
   color: inherit;
+  font-weight: bold;
   left: 76px;
   animation: color-change 1s ease-in-out;
 }
 
 @keyframes color-change {
   0% {
-    color: burlywood;
+    color: rgb(247, 143, 8);
   }
 
   50% {
-    color: #1662e7;
+    color: #0a5eee;
   }
 
   100% {
-    color: rgb(250, 13, 13);
+    color: rgb(83, 37, 37);
   }
 }
 
