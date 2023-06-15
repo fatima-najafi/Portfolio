@@ -15,6 +15,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [📹 Walkthrough ](#Walkthrough )
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -69,8 +70,16 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo link](https://fatima-najafi.github.io/Portfolio/)
+- 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 📹 Walkthrough  <a name="Walkthrough"></a>
+
+- [loom link](https://fatima-najafi.github.io/Portfolio/)
+- 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
