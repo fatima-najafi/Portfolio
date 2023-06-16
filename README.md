@@ -70,13 +70,11 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo link](https://fatima-najafi.github.io/Portfolio/)
-- 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 📹 Walkthrough  <a name="Walkthrough"></a>
 
-- [loom link](https://fatima-najafi.github.io/Portfolio/)
-- 
+- [loom link](https://loom.com/share/b1569d11555f4b71bed531ae981d6f62?sid=270e15f3-a1be-476b-abf2-9065c2dadd1c)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
