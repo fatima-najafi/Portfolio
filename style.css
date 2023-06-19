@@ -64,6 +64,10 @@ header {
   align-self: flex-end;
   padding: 0;
 }
+#mobile-menu-links a {
+  text-decoration: none;
+  color: #ffff;
+}
 
 .mobile-menu--hide {
   display: none;
