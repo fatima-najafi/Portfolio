@@ -39,7 +39,7 @@ body {
 
 header {
   background-color: #fff;
-  color: #6070ff;
+  color: #1a34ff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -148,7 +148,7 @@ header {
 
 .headline-sm-suport {
   margin: 10px 0;
-  color: #7f8cff;
+  color: #142cff;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -261,7 +261,7 @@ i {
 
 .works-card-tags {
   display: flex;
-  color: #6070ff;
+  color: #0018f0;
   margin: 0.25em 0;
   list-style-type: none;
   border-radius: 8px;
@@ -271,7 +271,7 @@ i {
 }
 
 .works-card-tag {
-  color: #6070ff;
+  color: #0018f0;
   background-color: #ebebff;
   margin: 0 0.5rem 0 0;
   padding: 0.25em 0.75em;
@@ -285,8 +285,8 @@ i {
 button {
   font-family: inherit;
   background: #fff;
-  color: #396df2;
-  border: 1px solid #6070ff;
+  color: #142cff;
+  border: 1px solid #0018f0;
   border-radius: 8px;
   padding: 12px;
   font-size: 1.05em;
@@ -298,7 +298,7 @@ button {
 }
 
 button:hover {
-  background: #6070ff;
+  background: #0018f0;
   box-shadow: 0 0.5em 1em #4053fc3d;
   color: #fff;
 }
@@ -407,7 +407,7 @@ button[disabled] {
   margin: 6em 0 0 0;
   padding: 3em;
   border-radius: 5em 0 0 0;
-  background-color: #6070ff;
+  background-color: #0018f0;
   background-image: url(./assets/contact\ form\ shapes-mobile.png);
   background-repeat: no-repeat;
   background-position-x: right;
@@ -431,7 +431,8 @@ button[disabled] {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  color: #ebebff;
+  color: #000038;
+  background: #f7f7f7;
 }
 
 .contact-me-form {
@@ -458,6 +459,8 @@ textarea:focus {
   font-size: 17px;
   line-height: 20px;
   border-radius: 8px;
+  color: #000038;
+  background: #f7f7f7;
 }
 
 .contact-me-form-button {
@@ -471,7 +474,7 @@ textarea:focus {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #6070ff;
+    color: #0018f0;
     margin: 0 0 0 100px;
     font-size: 18px;
   }
@@ -508,7 +511,7 @@ textarea:focus {
     display: flex;
     margin-top: 25px;
     padding: 0;
-    color: #6070ff;
+    color: #0018f0;
     font-size: 18px;
   }
 
@@ -644,7 +647,7 @@ textarea:focus {
   }
 
   .contact-me-form-container {
-    background-color: #6070ff;
+    background-color: #0018f0;
     background-image: url(./assets/contact\ form\ background\ shapes.png);
     background-repeat: no-repeat;
     background-position: center;
