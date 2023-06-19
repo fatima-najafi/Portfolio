@@ -52,6 +52,7 @@ header {
 
 .logo > a {
   text-decoration: none;
+
   /* color: inherit; */
   font-weight: bold;
   left: 76px;
@@ -59,7 +60,7 @@ header {
 
 /* start mobile-menu */
 .mobile-menu-close-icon {
-  color: #ffffff;
+  color: #fff;
   align-self: flex-end;
   padding: 0;
 }
