@@ -52,14 +52,14 @@ header {
 
 .logo > a {
   text-decoration: none;
-  color: inherit;
+  /* color: inherit; */
   font-weight: bold;
   left: 76px;
 }
 
 /* start mobile-menu */
 .mobile-menu-close-icon {
-  color: #fff;
+  color: #ffffff;
   align-self: flex-end;
   padding: 0;
 }
