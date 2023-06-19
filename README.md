@@ -9,27 +9,26 @@
 </div>
 
 # 📗 Table of Contents
-
-- [� Table of Contents](#-table-of-contents)
-- [porfolio mobile version ](#porfolio-mobile-version-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
-    - [Run tests](#run-tests)
-    - [Deployment](#deployment)
-  - [👥 Authors ](#-authors-)
-  - [👥 Authors ](#-authors--1)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+  - [📹 Walkthrough ](#Walkthrough )
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
 # porfolio mobile version <a name="about-project"></a>
 
@@ -72,6 +71,12 @@
 - [Live Demo link](https://fatima-najafi.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 📹 Walkthrough  <a name="Walkthrough"></a>
+
+- [loom link](https://loom.com/share/b1569d11555f4b71bed531ae981d6f62?sid=270e15f3-a1be-476b-abf2-9065c2dadd1c)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
