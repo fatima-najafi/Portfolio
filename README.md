@@ -9,7 +9,6 @@
 </div>
 
 # 📗 Table of Contents
-
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
@@ -136,6 +135,15 @@ Deploy this project on any websever
 - GitHub: [@githubhandle](https://github.com/fatima-najafi)
 - Twitter: [@twitterhandle](https://twitter.com)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/fatima-najafi-75424a23a/)
+
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Noel Foka **
+
+- GitHub: [@githubhandle](https://github.com/noelfoka)
+- Twitter: [@twitterhandle](https://twitter.com/noelnomgne)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/no%C3%ABl-nomgne-foka-063013231/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

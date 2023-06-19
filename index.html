@@ -5,19 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-   <script src="https://kit.fontawesome.com/8c1870b6fa.js" crossorigin="anonymous"></script>   
+    <script
+      src="https://kit.fontawesome.com/8c1870b6fa.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Fatima's Portfolio</title>
   </head>
   <body>
-   
     <!--header section starts-->
     <header>
       <div class="logo"><a href="#">Fatima</a></div>
       <nav>
         <div class="hamburger">
-          <svg width="750px" height="750px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="none">
-            <path stroke="#6070FF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h22M5 16h22M5 24h22"/>
+          <svg
+            id="show-nav-btn"
+            class="nav-menu-button"
+            width="750px"
+            height="750px"
+            viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+          >
+            <path
+              stroke="#6070FF"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M5 8h22M5 16h22M5 24h22"
+            />
           </svg>
+          <!-- mobile-menue start -->
+          <div id="mobile-menu" class="mobile-menu--hide">
+            <i
+              id="hide-nav-btn"
+              class="fa-solid fa-x mobile-menu-close-icon"
+            ></i>
+            <ul id="mobile-menu-links">
+              <li><a href="#my-portfolio">Portfolio</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <!-- mobile-menue finish -->
         </div>
         <ul class="nav-links">
           <li class="nav-link">Portfolio</li>
@@ -42,19 +71,29 @@
         <h2 class="headline-sm-suport">LET'S CONNECT</h2>
         <ul class="social-icons">
           <li>
-            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://twitter.com/"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/fatima-najafi-75424a23a/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.linkedin.com/in/fatima-najafi-75424a23a/"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
           </li>
           <li>
-            <a href="https://www.facebook.com/"><i class="fa-solid fa-m"></i></a>
+            <a href="https://www.facebook.com/"
+              ><i class="fa-solid fa-m"></i
+            ></a>
           </li>
           <li>
-            <a href="https://github.com/fatima-najafi"><i class="fa-brands fa-github"></i></a>
+            <a href="https://github.com/fatima-najafi"
+              ><i class="fa-brands fa-github"></i
+            ></a>
           </li>
           <li>
-            <a href="https://github.com/fatima-najafi"><i class="fa-brands fa-angellist"></i></a>
+            <a href="https://github.com/fatima-najafi"
+              ><i class="fa-brands fa-angellist"></i
+            ></a>
           </li>
         </ul>
       </section>
@@ -62,16 +101,14 @@
     <!--headline section ends-->
 
     <!--Card works starts-->
-    <section class="works">
-       
+    <section id="my-portfolio" class="works">
       <ul class="works-cards">
         <!-- Card 1 starts -->
-      
+
         <li class="works-card">
-          <img src="assets/card1.png" alt="Recent Work card-1"/>
+          <img src="assets/card1.png" alt="Recent Work card-1" />
           <div class="works-card-main">
-            <h2 class="works-card-heading-large">Multi-Post
-              Stories</h2>
+            <h2 class="works-card-heading-large">Multi-Post Stories</h2>
             <div class="works-card-client">
               <p class="paragraph">CANOPY</p>
               <p class="fa-solid fa-circle works-card-client-counter"></p>
@@ -95,7 +132,7 @@
         <!-- Card 2 starts -->
 
         <li class="works-card">
-          <img src="assets/card3.png" alt="Recent Work card-3"/>
+          <img src="assets/card3.png" alt="Recent Work card-3" />
           <div class="works-card-main">
             <h2 class="works-card-heading-large">Multi-Post Stories</h2>
             <div class="works-card-client">
@@ -106,7 +143,8 @@
               <p class="works-card-client-year paragraph">2015</p>
             </div>
             <p class="paragraph works-card-paragraph">
-              A daily selection of privately personalized reads; no accounts or sign-ups required.
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
             </p>
             <ul class="works-card-tags">
               <li class="works-card-tag">html</li>
@@ -118,7 +156,7 @@
           </div>
         </li>
         <!-- Card 2 Ends -->
-       <!-- Card 3 starts -->
+        <!-- Card 3 starts -->
         <li class="works-card">
           <img src="./assets/card.png" alt="Recent Work card" />
           <div class="works-card-main">
@@ -131,7 +169,8 @@
               <p class="works-card-client-year paragraph">2015</p>
             </div>
             <p class="paragraph works-card-paragraph">
-              A daily selection of privately personalized reads; no accounts or sign-ups required.
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
             </p>
             <ul class="works-card-tags">
               <li class="works-card-tag">html</li>
@@ -143,151 +182,157 @@
           </div>
         </li>
         <!-- Card 3 Ends -->
-      
-                <!-- Card 4 starts -->
-                <li class="works-card">
-                  <img src="./assets/card2.png" alt="Recent Work card-2" />
-                  <div class="works-card-main">
-                    <h2 class="works-card-heading-large">Tonic</h2>
-                    <div class="works-card-client">
-                      <p class="paragraph">UBER</p>
-                      <p class="fa-solid fa-circle works-card-client-counter"></p>
-                      <p class="works-card-client-role paragraph">Back End Dev</p>
-                      <p class="fa-solid fa-circle works-card-client-counter"></p>
-                      <p class="works-card-client-year paragraph">2015</p>
-                    </div>
-                    <p class="paragraph works-card-paragraph">
-                      A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    </p>
-                    <ul class="works-card-tags">
-                      <li class="works-card-tag">html</li>
-                      <!-- <li class="works-card-tag">Ruby on rails</li> -->
-                      <li class="works-card-tag">css</li>
-                      <li class="works-card-tag">javascript</li>
-                    </ul>
-                    <button>See Project</button>
-                  </div>
-                </li>
-              
-              </ul>
-            </section>
-            <!--Card works ends-->
-        
+
+        <!-- Card 4 starts -->
+        <li class="works-card">
+          <img src="./assets/card2.png" alt="Recent Work card-2" />
+          <div class="works-card-main">
+            <h2 class="works-card-heading-large">Tonic</h2>
+            <div class="works-card-client">
+              <p class="paragraph">UBER</p>
+              <p class="fa-solid fa-circle works-card-client-counter"></p>
+              <p class="works-card-client-role paragraph">Back End Dev</p>
+              <p class="fa-solid fa-circle works-card-client-counter"></p>
+              <p class="works-card-client-year paragraph">2015</p>
+            </div>
+            <p class="paragraph works-card-paragraph">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <ul class="works-card-tags">
+              <li class="works-card-tag">html</li>
+              <li class="works-card-tag">css</li>
+              <li class="works-card-tag">javascript</li>
+            </ul>
+            <button>See Project</button>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!--Card works ends-->
 
     <!-- About Section Starts Here -->
-    <section class="about">
+    <section id="about" class="about">
       <div class="headline-skill-container">
         <div class="about-headline">
           <h2 class="heading-large">About Myself</h2>
           <p class="headline-paragraph paragraph">
             Hello I’m a software developer! I can help you build a product ,
-             feature or website. Look through some of my work and experience!
-             If you like what you see and have a project you need coded,
-              don’t hesitate to contact me.
+            feature or website. Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hesitate to contact me.
           </p>
           <p class="headline-sm-suport">LET'S CONNECT</p>
           <div class="social">
             <ul class="social-icons">
               <li>
-                <a href="https://github.com/fatima-najafi"><i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/fatima-najafi"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/fatima-najafi-75424a23a/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/fatima-najafi-75424a23a/"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/fatima-najafi-75424a23a/"><i class="fa-brands fa-angellist"></i></a>
+                <a href="https://www.linkedin.com/in/fatima-najafi-75424a23a/"
+                  ><i class="fa-brands fa-angellist"></i
+                ></a>
               </li>
               <li>
-                <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://twitter.com/"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
               </li>
               <li>
-                <a href="https://github.com/fatima-najafi"><i class="fa-solid fa-m"></i></a>
+                <a href="https://github.com/fatima-najafi"
+                  ><i class="fa-solid fa-m"></i
+                ></a>
               </li>
             </ul>
-        
-              <button >Get my resume</button>
-           
-            
+
+            <button>Get my resume</button>
           </div>
         </div>
-      
-      <ul class="about-skills-container">
-        <li class="about-skill-container">
 
-         <div class="skills-1">
-                <!-- <p><strong>Languages</strong></p> -->
-                <p>Languages</p>
-                <i class="fa-solid fa-angle-down"></i>
+        <ul class="about-skills-container">
+          <li class="about-skill-container">
+            <div id="skills-1">
+              <!-- <p><strong>Languages</strong></p> -->
+              <p>Languages</p>
+              <i class="fa-solid fa-angle-down"></i>
             </div>
-        </li>
-        <li>
-          <ul class="about-skill-body-container">
-            <li class="about-skill-body">
-              <img
-                class="about-skill-body-img"
-                src="assets/javascript.png"
-                alt="JavaScript Logo"
-              />
-              <span class="about-skill-text">JavaScript</span>
-            </li>
-            <li class="about-skill-body">
-              <img
-                class="about-skill-body-img"
-                src="assets/html.png"
-                alt="HTML Logo"
-              />
-              <span class="about-skill-text">HTML</span>
-            </li>
-            <li class="about-skill-body">
-              <img
-                class="about-skill-body-img"
-                src="assets/css.png"
-                alt="CSS Logo"
-              />
-              
-              <span class="about-skill-text">CSS</span>
-            </li>
-          </ul>
-        </li>
-        <li class="about-skill-container">
-          <div class="about-skill-heading">
-            <h4 class="about-heading-small">Frameworks</h4>
-            <i class="fa-solid fa-angle-right"></i>
-          </div>
-        </li>
-       
-        <li class="about-skill-container">
-          <div class="about-skill-heading">
-            <h4 class="about-heading-small">Skills</h4>
-            <i class="fa-solid fa-angle-right"></i>
-          </div>
-        </li>
-      </ul>
-          
+          </li>
+          <li>
+            <ul class="about-skill-body-container">
+              <li class="about-skill-body">
+                <img
+                  class="about-skill-body-img"
+                  src="assets/javascript.png"
+                  alt="JavaScript Logo"
+                />
+                <span class="about-skill-text">JavaScript</span>
+              </li>
+              <li class="about-skill-body">
+                <img
+                  class="about-skill-body-img"
+                  src="assets/html.png"
+                  alt="HTML Logo"
+                />
+                <span class="about-skill-text">HTML</span>
+              </li>
+              <li class="about-skill-body">
+                <img
+                  class="about-skill-body-img"
+                  src="assets/css.png"
+                  alt="CSS Logo"
+                />
+
+                <span class="about-skill-text">CSS</span>
+              </li>
+            </ul>
+          </li>
+          <li class="about-skill-container">
+            <div class="about-skill-heading">
+              <h4 class="about-heading-small">Frameworks</h4>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+          </li>
+
+          <li class="about-skill-container">
+            <div class="about-skill-heading">
+              <h4 class="about-heading-small">Skills</h4>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
     <!-- Contact Me Section Starts -->
-    <section class="contact-me-form-container">
-        <h2 class="contact-me-form-heading">
-            Contact me
-        </h2>
-        <p class="contact-me-form-paragraph">
-            If you have an application you are interested in developing, a feature
+    <section id="contact" class="contact-me-form-container">
+      <h2 class="contact-me-form-heading">Contact me</h2>
+      <p class="contact-me-form-paragraph">
+        If you have an application you are interested in developing, a feature
         that you need built or a project that needs coding. I'd love to help
         with it
       </p>
-      <form  action="https://formspree.io/f/xpzebdqb"
-      method="POST" class="contact-me-form">
-      <label for="name" hidden>name</label>
+      <form
+        action="https://formspree.io/f/xpzebdqb"
+        method="POST"
+        class="contact-me-form"
+      >
+        <label for="name" hidden>name</label>
         <input
           class="contact-me-form-text-input"
           required
           maxlength="30"
           name="name"
           type="text"
-          placeholder="Your good name">
-          <label for="email"  hidden>Email</label>
-          <input
+          placeholder="Your good name"
+        />
+        <label for="email" hidden>Email</label>
+        <input
           class="contact-me-form-text-input"
           pattern="[^ @]*@[^ @]*"
           required
@@ -296,7 +341,7 @@
           placeholder="Your email address"
         />
         <label for="message" hidden>Messages</label>
-          <textarea
+        <textarea
           class="contact-me-form-text-input"
           required
           maxlength="500"
@@ -306,12 +351,13 @@
           placeholder="Write your message here"
         ></textarea>
         <label for="contact-me-form-button" hidden>Get in touch button</label>
-         <button class="contact-me-form-button" type="submit">
+        <button class="contact-me-form-button" type="submit">
           Get In Touch
         </button>
-
-      </form>    
-  </section>
+      </form>
+    </section>
     <!-- Contact Me Section Ends -->
+
+    <script src="app.js"></script>
   </body>
 </html>
