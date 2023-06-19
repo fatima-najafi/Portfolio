@@ -64,10 +64,6 @@ header {
   align-self: flex-end;
   padding: 0;
 }
-#mobile-menu-links a {
-  text-decoration: none;
-  color: #ffff;
-}
 
 .mobile-menu--hide {
   display: none;
@@ -204,6 +200,11 @@ i {
   color: #505f79;
   font-size: 1.25rem;
   padding-right: 1em;
+}
+
+#mobile-menu-links a {
+  text-decoration: none;
+  color: #ffff;
 }
 
 /* Works Section Styling Starts Here */
