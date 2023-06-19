@@ -56,6 +56,7 @@ header {
   font-weight: bold;
   left: 76px;
 }
+
 /* start mobile-menu */
 .mobile-menu-close-icon {
   color: #fff;
@@ -95,9 +96,11 @@ header {
   display: inline;
   cursor: pointer;
 }
+
 .nav-link:nth-child(even) {
   margin: 0 0.5em;
 }
+
 /* finish mobile menu */
 
 .headline-main {
@@ -137,7 +140,7 @@ header {
 .headline-heading {
   margin: 10px 0;
   display: flex;
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -166,7 +169,7 @@ header {
 
 .headline-paragraph {
   margin: 10px 0;
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -376,7 +379,7 @@ button[disabled] {
   margin-right: -12px;
 }
 
-.skills-1 li {
+#skills-1 li {
   display: flex;
   list-style-type: none;
   align-items: center;
@@ -569,7 +572,7 @@ textarea:focus {
 
   .headline-paragraph {
     margin: 10px 0;
-    font-family: "Poppins" sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
