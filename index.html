@@ -49,17 +49,17 @@
           <!-- mobile-menue finish -->
         </div>
         <ul class="nav-links">
-          <li class="nav-link">Portfolio</li>
-          <li class="nav-link">About</li>
-          <li class="nav-link">Contact</li>
+          <li class="nav-link"><a href="#my-portfolio">Portfolio</a></li>
+          <li class="nav-link"><a href="#about">About</a></li>
+          <li class="nav-link"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <!--header section ends-->
 
     <!--headline section starts-->
-    <section class="headline-main">
-      <section class="headline">
+    <section class="d-flex headline-main">
+      <section class="d-flex headline">
         <h1 class="headline-heading">I'm Fatima.<br />Glad to see you!</h1>
 
         <p class="headline-paragraph">
@@ -69,7 +69,7 @@
           me.
         </p>
         <h2 class="headline-sm-suport">LET'S CONNECT</h2>
-        <ul class="social-icons">
+        <ul class="d-flex social-icons">
           <li>
             <a href="https://twitter.com/"
               ><i class="fa-brands fa-twitter"></i
@@ -224,7 +224,7 @@
           </p>
           <p class="headline-sm-suport">LET'S CONNECT</p>
           <div class="social">
-            <ul class="social-icons">
+            <ul class="d-flex social-icons">
               <li>
                 <a href="https://github.com/fatima-najafi"
                   ><i class="fa-brands fa-github"></i
@@ -256,9 +256,9 @@
           </div>
         </div>
 
-        <ul class="about-skills-container">
+        <ul class="d-flex about-skills-container">
           <li class="about-skill-container">
-            <div id="skills-1">
+            <div id=" d-flex skills-1">
               <!-- <p><strong>Languages</strong></p> -->
               <p>Languages</p>
               <i class="fa-solid fa-angle-down"></i>
@@ -266,7 +266,7 @@
           </li>
           <li>
             <ul class="about-skill-body-container">
-              <li class="about-skill-body">
+              <li class="d-flex about-skill-body">
                 <img
                   class="about-skill-body-img"
                   src="assets/javascript.png"
@@ -274,7 +274,7 @@
                 />
                 <span class="about-skill-text">JavaScript</span>
               </li>
-              <li class="about-skill-body">
+              <li class="d-flex about-skill-body">
                 <img
                   class="about-skill-body-img"
                   src="assets/html.png"
@@ -282,7 +282,7 @@
                 />
                 <span class="about-skill-text">HTML</span>
               </li>
-              <li class="about-skill-body">
+              <li class="d-flex about-skill-body">
                 <img
                   class="about-skill-body-img"
                   src="assets/css.png"
@@ -294,14 +294,14 @@
             </ul>
           </li>
           <li class="about-skill-container">
-            <div class="about-skill-heading">
+            <div class="d-flex about-skill-heading">
               <h4 class="about-heading-small">Frameworks</h4>
               <i class="fa-solid fa-angle-right"></i>
             </div>
           </li>
 
           <li class="about-skill-container">
-            <div class="about-skill-heading">
+            <div class="d-flex about-skill-heading">
               <h4 class="about-heading-small">Skills</h4>
               <i class="fa-solid fa-angle-right"></i>
             </div>
@@ -357,7 +357,38 @@
       </form>
     </section>
     <!-- Contact Me Section Ends -->
+    <!--  popup -->
+    <section class="popup-section">
+      <li class="works-card">
+        <div class="works-card-main">
+          <h2 class="works-card-heading-large">Tonic</h2>
+          <div class="works-card-client">
+            <p class="paragraph">UBER</p>
+            <p class="fa-solid fa-circle works-card-client-counter"></p>
+            <p class="works-card-client-role paragraph">Back End Dev</p>
+            <p class="fa-solid fa-circle works-card-client-counter"></p>
+            <p class="works-card-client-year paragraph">2015</p>
+          </div>
+          <img src="./assets/card2.png" alt="Recent Work card-2" />
+          <p class="paragraph works-card-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quo
+            quis explicabo blanditiis officiis deleniti totam alias voluptatibus
+            aperiam? Reiciendis. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Eius quo quis explicabo blanditiis officiis
+            deleniti totam alias voluptatibus aperiam? Reiciendis.
+          </p>
+          <ul class="works-card-tags">
+            <li class="works-card-tag">html</li>
+            <li class="works-card-tag">css</li>
+            <li class="works-card-tag">javascript</li>
+          </ul>
+          <button>see live <img src="assets/clock.svg" alt="" /></button>
+          <button>see source<i class="fa-brands fa-github"></i></button>
+        </div>
+      </li>
+    </section>
 
     <script src="app.js"></script>
+    <script src="popup.js"></script>
   </body>
 </html>
