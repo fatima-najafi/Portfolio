@@ -1,25 +1,45 @@
-// Contact Form Validation Starts Here
-// This Function will show error message
-const contactForm = document.getElementById("contact-me-form");
-const contactFormError = document.getElementById("contact-me-form-error-msg");
-const emailRegex =
-  /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
+const contactForm = document.querySelector(".contact-me-form");
+const validText = document.querySelector("#valid-text");
 
 contactForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  if (contactForm.elements.name.value.trim() === "") {
-    contactFormError.innerText = "Please enter your name";
-    contactFormError.classList.add("contact-me-form-error-msg-display");
-  } else if (!emailRegex.test(contactForm.elements.email.value.trim())) {
-    contactFormError.innerText = "Please enter your email in lower case";
-    contactFormError.classList.add("contact-me-form-error-msg-display");
-  } else if (contactForm.elements.message.value.trim() === "") {
-    contactFormError.innerText = "Please enter your message";
-    contactFormError.classList.add("contact-me-form-error-msg-display");
+  const nameInput = contactForm.querySelector('input[name="name"]');
+  const emailInput = contactForm.querySelector('input[name="email"]');
+  const messageInput = contactForm.querySelector('textarea[name="message"]');
+
+  const name = nameInput.value.trim();
+  const email = emailInput.value.trim();
+  const message = messageInput.value.trim();
+
+  if (name === "") {
+    showError(nameInput, "Please enter your name");
+  } else if (!isValidName(name)) {
+    showError(nameInput, "Please enter a valid name");
+  } else if (!isValidEmail(email)) {
+    showError(emailInput, "Please enter a valid email address in lowercase");
+  } else if (message === "") {
+    showError(messageInput, "Please enter your message");
   } else {
-    contactFormError.innerText = "";
-    contactFormError.className = "contact-me-form-error-msg-hidden";
     contactForm.submit();
+    contactForm.reset();
+    validText.innerText = "Form submitted successfully!";
+    validText.style.color = "green";
   }
 });
+
+function showError(input, errorMessage) {
+  validText.innerText = errorMessage;
+  validText.style.color = "red";
+  input.classList.add("error-input");
+}
+
+function isValidName(name) {
+  const nameRegex = /^[a-zA-Z\s]*$/;
+  return nameRegex.test(name);
+}
+
+function isValidEmail(email) {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email) && email === email.toLowerCase();
+}

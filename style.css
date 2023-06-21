@@ -505,35 +505,6 @@ textarea:focus {
 }
 
 /* Contact me ends here */
-/* popup start */
-.popup .works-card {
-  color: #172b4d;
-  background-color: #ffff;
-  border: 1px solid #dfe1e6;
-  border-radius: 1em;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  margin: 8em 7% 0 7%;
-  padding: 1em 1em 2em 1em;
-}
-.popup .works-card-paragraph {
-  width: 355px;
-}
-.popup .works-card-tags {
-  gap: 10px;
-}
-.popup .first-btn {
-  margin-right: 25px;
-  width: 145px;
-}
-.first-btn img,
-.second-btn .fa-brands {
-  padding: 0px 10px;
-}
-
-/* popup end */
 
 @media screen and (min-width: 768px) {
   .logo > a {
