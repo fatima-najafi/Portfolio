@@ -15,13 +15,13 @@ mobileMenuLinks.addEventListener("click", () => {
   mobileMenu.classList.toggle("mobile-menu--show");
 });
 
-mobileMenuLinks.forEach((link) => {
-  link.addEventListener("click", (event) => {
-    event.preventDefault();
+// mobileMenuLinks.forEach((link) => {
+//   link.addEventListener("click", (event) => {
+//     event.preventDefault();
 
-    const targetID = link.getAttribute("href").substring(1);
-    const targetSection = document.getElementById(targetID);
-    targetSection.scrollIntoView({ behavior: "smooth" });
-    mobileMenu.classList.remove("mobile-menu--show");
-  });
-});
+//     const targetID = link.getAttribute("href").substring(1);
+//     const targetSection = document.getElementById(targetID);
+//     targetSection.scrollIntoView({ behavior: "smooth" });
+//     mobileMenu.classList.remove("mobile-menu--show");
+//   });
+// });
