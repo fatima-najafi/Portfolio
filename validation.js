@@ -1,6 +1,6 @@
 // Contact Form Validation Starts Here
 // This Function will show error message
-const contactForm = document.getElementById("contact-me-form");
+/*const contactForm = document.getElementById("contact-me-form");
 const contactFormError = document.getElementById("contact-me-form-error-msg");
 const emailRegex =
   /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
@@ -22,4 +22,15 @@ contactForm.addEventListener("submit", (event) => {
     contactFormError.className = "contact-me-form-error-msg-hidden";
     contactForm.submit();
   }
-});
+});*/
+
+
+export const email = document.querySelector('.contact-me-form-text-input);
+export const form = document.querySelector('.contact-me-form');
+export const error = document.querySelector('.error');
+export function isItUppercase(value) {
+  if (value.match(/^[a-z@.0-9-_]*$/)) {
+    return true;
+  }
+  return false;
+}
