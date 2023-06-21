@@ -1,4 +1,4 @@
-// popup start
+// popup project start
 const projects = [
   {
     featureImg: "./assets/card1.png",
