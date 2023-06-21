@@ -507,7 +507,16 @@ textarea:focus {
 /* Contact me ends here */
 /* popup start */
 .popup .works-card {
-  min-width: 375px;
+  color: #172b4d;
+  background-color: #ffff;
+  border: 1px solid #dfe1e6;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 8em 7% 0 7%;
+  padding: 1em 1em 2em 1em;
 }
 .popup .works-card-paragraph {
   width: 355px;
@@ -717,53 +726,4 @@ textarea:focus {
   .contact-me-form-text-input {
     border-radius: 0;
   }
-}
-@media screen and (min-width: 768px) {
-  /* popup start */
-  .popup {
-    display: flex;
-    position: relative;
-  }
-  .popup .works-card {
-    padding: 0px 10px 0px 45px;
-    height: 832px;
-    display: flex;
-    position: relative;
-  }
-  .popup .div {
-    margin-top: -237px;
-    margin-left: 288px;
-  }
-  .popup .div ul {
-    padding-left: 70px;
-  }
-
-  .popup .image {
-    width: 100vh;
-    height: 400px;
-  }
-
-  .popup .works-card-tags {
-    gap: 10px;
-  }
-  .div button {
-    margin-left: 12px;
-    padding: 10px;
-    width: 40px;
-  }
-  .div .first-btn {
-    margin-right: 5px;
-    width: 140px;
-  }
-  .div .second-btn {
-    margin-right: 5px;
-    width: 155px;
-    padding: 8px;
-  }
-  .first-btn img,
-  .second-btn .fa-brands {
-    padding: 0px 10px;
-  }
-
-  /* popup end */
 }
