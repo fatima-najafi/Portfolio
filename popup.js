@@ -80,3 +80,55 @@ projects.forEach((project) => {
 
   container.appendChild(card);
 });
+
+const body = document.getElementById("body");
+projects.forEach((project, index) => {
+  const languages = project.projectLang
+    .map((lang) => `<li class='detail-card-body-tag'>${lang}</li>`)
+    .join("");
+  const popup = document.createElement("div");
+  modal.classList.add("detail-card");
+  modal.id = `detail-card-${index + 1}`;
+  modal.innerHTML = `<div class='detail-card-inner'>
+    <div class='d-flex detail-card-header'>
+        <div>
+            <h3 class='detail-card-heading'>${project.projectName}</h3>
+            <div class='d-flex works-card-client'>
+                <p class='paragraph'>${project.projectDetails.orgnization}</p>
+                <i class='fa-solid fa-circle works-card-client-counter'></i>
+                <p class='works-card-client-role paragraph'>${
+                  project.projectDetails.type
+                }</p>
+                <i class='fa-solid fa-circle works-card-client-counter'></i>
+                <p class='works-card-client-year paragraph'>${
+                  project.projectDetails.year
+                }</p>
+            </div>
+        </div>
+        <i id='detail-card-close-${
+          index + 1
+        }' class='fa-solid fa-xmark detail-card-cross-icon'></i>
+    </div>
+    <div class='detail-card-display-img-container'>
+        <img class='' src='${project.featureImg}' alt='Recent Work'>
+    </div>
+    <div class='detail-card-body'>
+        <p class='paragraph'>${project.projectDescription}</p>
+        <div class='detail-card-body-right'>
+            <ul class='d-flex detail-card-body-tags'>
+                ${languages}
+            </ul>
+            <div class='detail-card-body-right-button-container'>
+                <button class='detail-card-button' src='${
+                  project.seeLive
+                }'>See Live <i
+                        class='fa-solid fa-arrow-up-right-from-square'></i></button>
+                <button class='detail-card-button'  src='${
+                  project.seeSource
+                }'>See Source <i class='fa-brands fa-github'></i></button>
+            </div>
+        </div>
+    </div>
+  </div>`;
+  body.appendChild(popup);
+});
