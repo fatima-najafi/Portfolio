@@ -1,4 +1,5 @@
 // popup start
+/*
 const projects = [
   {
     featureImg: "./assets/card1.png",
@@ -80,3 +81,4 @@ projects.forEach((project) => {
 
   container.appendChild(card);
 });
+*/
