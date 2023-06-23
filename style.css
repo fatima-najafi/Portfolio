@@ -534,7 +534,7 @@ textarea:focus {
   border: 1px solid #dfe1e6;
   border-radius: 1em;
   justify-content: center;
-  margin: 10px;
+  margin: 20px 10px;
   padding: 1em;
 }
 
@@ -628,6 +628,10 @@ textarea:focus {
 
   .detail-card-button {
     min-width: 139px;
+  }
+
+  .detail-card-inner {
+    margin: 5% 8%;
   }
 
   /* Details Card Ends Here */
