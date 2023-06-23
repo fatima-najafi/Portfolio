@@ -507,19 +507,22 @@ textarea:focus {
 
 /* Contact me ends here */
 
-/* .detail-card {
+.detail-card {
   display: none;
-} */
+}
 
 .detail-card--show {
   display: block;
+  z-index: 15;
   height: 100%;
   width: 100%;
-  background-color: white;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.75);
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  overflow-y: auto;
   margin: auto 0;
 }
 
@@ -557,7 +560,10 @@ textarea:focus {
 .detail-card-display-img-container {
   width: 100%;
   height: auto;
-  margin: 2em 0;
+}
+
+.detail-card-body .paragraph {
+  margin-top: -25px;
 }
 
 .detail-card-display-img-container > img {
