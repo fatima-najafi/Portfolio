@@ -511,13 +511,18 @@ textarea:focus {
   display: none;
 }
 
+.blur {
+  overflow-y: hidden;
+}
+
 .detail-card--show {
   display: block;
   z-index: 15;
   height: 100%;
   width: 100%;
   position: fixed;
-  background: rgba(193, 199, 208, 0.5);
+  background: rgba(193, 199, 208, 0.7);
+  backdrop-filter: blur(4px);
   top: 0;
   right: 0;
   bottom: 0;
@@ -615,6 +620,9 @@ textarea:focus {
 
 @media screen and (min-width: 768px) {
   /* Details Card Starts Here */
+  .detail-card-display-img-container > img {
+    width: 100%;
+  }
 
   .detail-card {
     flex-direction: column;

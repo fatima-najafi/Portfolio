@@ -151,28 +151,36 @@ const detailCard4 = document.getElementById('detail-card-4');
 // Card 1
 project1.addEventListener('click', () => {
   detailCard1.classList.toggle('detail-card--show');
+  body.classList.add('blur');
 });
 projectClose1.addEventListener('click', () => {
   detailCard1.classList.toggle('detail-card--show');
+  body.classList.remove('blur');
 });
 // Card 2
 project2.addEventListener('click', () => {
   detailCard2.classList.toggle('detail-card--show');
+  body.classList.add('blur');
 });
 projectClose2.addEventListener('click', () => {
   detailCard2.classList.toggle('detail-card--show');
+  body.classList.remove('blur');
 });
 // Card 3
 project3.addEventListener('click', () => {
   detailCard3.classList.toggle('detail-card--show');
+  body.classList.add('blur');
 });
 projectClose3.addEventListener('click', () => {
   detailCard3.classList.toggle('detail-card--show');
+  body.classList.remove('blur');
 });
 // Card 4
 project4.addEventListener('click', () => {
   detailCard4.classList.toggle('detail-card--show');
+  body.classList.add('blur');
 });
 projectClose4.addEventListener('click', () => {
   detailCard4.classList.toggle('detail-card--show');
+  body.classList.remove('blur');
 });
