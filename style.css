@@ -517,7 +517,7 @@ textarea:focus {
   height: 100%;
   width: 100%;
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.75);
+  background: rgba(193, 199, 208, 1);
   top: 0;
   right: 0;
   bottom: 0;
@@ -534,7 +534,7 @@ textarea:focus {
   border: 1px solid #dfe1e6;
   border-radius: 1em;
   justify-content: center;
-  margin: 10%;
+  margin: 10px;
   padding: 1em;
 }
 
@@ -596,6 +596,7 @@ textarea:focus {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1em;
+  border-top: 2px solid rgba(235, 236, 240, 1);
 }
 
 .detail-card-button {
