@@ -71,7 +71,7 @@
 - [Live Demo link](https://fatima-najafi.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-## 📹 Walkthrough  <a name="Walkthrough"></a>
+📹 Walkthrough  <a name="Walkthrough"></a>
 
 - [loom link](https://www.loom.com/share/b1569d11555f4b71bed531ae981d6f62?sid=4e256cb1-687b-403a-82b3-185e580e63a6)
 
