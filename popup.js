@@ -82,7 +82,7 @@ projects.forEach((project, index) => {
 });
 
 // Popup Starts
-const body = document.getElementById('body');
+const body = document.getElementById('bod');
 projects.forEach((project, index) => {
   const popup = document.createElement('div');
   popup.classList.add('detail-card');
