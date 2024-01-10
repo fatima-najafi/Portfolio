@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
   padding: 0;
@@ -7,7 +7,7 @@
 }
 
 html {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 ul {
@@ -42,22 +42,64 @@ body {
 }
 
 header {
+  padding: 5px 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: #fff;
-  color: #1a34ff;
+  z-index: 1000;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 25px;
+  gap: 140px;
+  padding-top: 30px;
 }
 
 .nav-links {
   display: none;
 }
 
-.logo > a {
-  text-decoration: none;
+.logo {
+  font-size: 20px;
   font-weight: bold;
-  left: 76px;
+  padding-left: 20px;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards, rotate 5s linear infinite, scale 1.2s ease-in-out infinite alternate;
+  transition: color 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.logo:hover {
+  color: rgb(13, 92, 240);
 }
 
 /* start mobile-menu */
@@ -84,7 +126,7 @@ header {
   height: 100vh;
   color: #fff;
   background: rgba(96, 112, 255, 0.9);
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 2rem;
   line-height: 44px;
@@ -116,12 +158,13 @@ header {
   padding: 0 7%;
   border-radius: 0 0 0 4em;
   background-color: #fff;
-  background-image: url(./assets/header-shape.png);
+  background-image: url(./assets/phone.gif);
   background-size: 100%;
   background-position-x: center;
   background-repeat: no-repeat;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-top: 50px;
 }
 
 .headline {
@@ -143,7 +186,7 @@ header {
 .headline-heading {
   margin: 10px 0;
   display: flex;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -166,13 +209,9 @@ header {
   }
 }
 
-.headline-heading:hover {
-  color: #ff6b6b;
-}
-
 .headline-paragraph {
   margin: 10px 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -224,30 +263,19 @@ i {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  margin: 8em 7% 0 7%;
+  margin: 6em 7% 0 7%;
   padding: 1em 1em 2em 1em;
 }
 
 .works-card > img {
   width: 100%;
-  animation-name: zoom-in;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes zoom-in {
-  from {
-    transform: scale(0);
-  }
-
-  to {
-    transform: scale(1);
-  }
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px black;
 }
 
 .works-card-heading-large {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 25px;
   line-height: 52px;
   padding: 0.25em 0;
   font-style: normal;
@@ -313,12 +341,13 @@ i {
   color: #0018f0;
   background-color: #ebebff;
   margin: 0 0.5rem 0 0;
-  padding: 0.25em 0.75em;
   border-radius: 8px;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
+  box-shadow: inset -2px 1px 14px 3px black;
+  padding: 10px;
 }
 
 button {
@@ -327,13 +356,14 @@ button {
   color: #142cff;
   border: 1px solid #0018f0;
   border-radius: 8px;
-  padding: 12px;
+  padding: 8px 12px;
   font-size: 1.05em;
   font-weight: 500;
   letter-spacing: 0.03em;
   width: auto;
   margin: 1em 0;
   cursor: pointer;
+  box-shadow: 2px 2px 10px black;
 }
 
 button:hover {
@@ -362,12 +392,41 @@ button[disabled] {
   margin: 8em 0 0 0;
 }
 
+.about-skill-body-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .headline-skill-container {
   padding: 5em 7% 0 7%;
 }
 
+.frame {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.fa-2xl {
+  font-size: 20px;
+}
+
+.icons {
+  padding: 5px;
+}
+
+.icons:hover {
+  background-color: rgba(0, 0, 255, 0.116);
+  text-align: center;
+  border-radius: 20%;
+  padding: 5px 0 5px 20px;
+  box-shadow: 2px 2px 2px #0000006e;
+}
+
 .about-heading-small {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -378,7 +437,7 @@ button[disabled] {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -402,7 +461,8 @@ button[disabled] {
   flex-direction: column;
   padding: 2em 1em;
   width: 100%;
-  height: 600px;
+  height: 400px;
+  gap: 10px;
 }
 
 .about-skills-container > hr {
@@ -414,21 +474,25 @@ button[disabled] {
 .about-skill-heading {
   display: flex;
   justify-content: space-between;
-  padding: 2em 1em 2em 0;
+  padding: 5px 10px;
+}
+
+.about-skill-body.show {
+  display: block;
 }
 
 .about-skill-body {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: flex-start;
   background-color: #f7f7f9;
   border-radius: 0.5em;
-  margin: 0.5em 0;
-  padding: 0.5em;
+  padding: 5px 10px;
+  box-shadow: 2px 1px 10px black;
 }
 
 .about-skill-text {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   padding-left: 1em;
@@ -465,7 +529,7 @@ button[disabled] {
 .contact-me-form-paragraph {
   text-align: center;
   margin-top: 0.75em;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -491,7 +555,7 @@ textarea:focus {
   padding: 0.75em;
   width: 100%;
   border: 1px solid #cfd8dc;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -549,9 +613,9 @@ textarea:focus {
 
 .detail-card-heading {
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 22px;
   line-height: 52px;
-  padding: 0;
+  padding: 5px;
 }
 
 .d-flex {
@@ -573,6 +637,8 @@ textarea:focus {
 
 .detail-card-display-img-container > img {
   width: 100%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 15px black;
 }
 
 .detail-card-body {
@@ -588,11 +654,12 @@ textarea:focus {
 .detail-card-body-tag {
   color: #6070ff;
   background-color: #ebebff;
-  margin: 0 0.5rem 0.5em 0;
-  padding: 0.25em 0.75em;
-  border-radius: 0.5rem;
+  margin: 0 0 10px 14px;
+  box-shadow: inset -2px 1px 14px 3px black;
+  padding: 8px 10px;
+  border-radius: 10px;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 16px;
   letter-spacing: 0.03em;
 }
@@ -601,17 +668,17 @@ textarea:focus {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1em;
-  border-top: 2px solid rgba(235, 236, 240, 1);
 }
 
 .detail-card-button {
   font-size: 15px;
   padding: 0.5em 0.75em;
   align-content: center;
+  box-shadow: 2px 2px 15px black;
+  border-radius: 5px;
 }
 
 .detail-card-button > i {
-  padding: 0;
   font-size: 0.85em;
   color: inherit;
 }
@@ -620,18 +687,35 @@ textarea:focus {
 
 @media screen and (min-width: 768px) {
   /* Details Card Starts Here */
+
   .detail-card-display-img-container > img {
-    width: 100%;
+    margin: 10px 0 5px 100px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px black;
+    width: 80%;
   }
 
   .detail-card {
     flex-direction: column;
   }
 
-  .detail-card-body {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 2em;
+  .detail-card-body-tags {
+    margin: 0 0 10px 260px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+  }
+
+  .detail-card-body-tags li {
+    border: 2px solid gray;
+    padding: 10px 15px;
+    font-size: 18px;
+    box-shadow: inset -2px 1px 14px 3px black;
+  }
+
+  .detail-card-body-right-button-container {
+    margin: 0 0 0 260px;
+    display: flex;
   }
 
   .detail-card-button {
@@ -643,23 +727,23 @@ textarea:focus {
   }
 
   /* Details Card Ends Here */
-  .logo > a {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #0018f0;
-    margin: 0 0 0 100px;
-    font-size: 18px;
+  .logo {
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 40px;
   }
 
   .headline-main {
     border-radius: 0 0 0 4em;
     background-color: #fff;
-    background-image: url(./assets/Header\ bg.png);
+    background-image: url(./assets/main.gif);
     background-size: 96%;
     background-position-x: center;
     background-repeat: no-repeat;
     height: 100vh;
+    margin-top: 50px;
   }
 
   .headline {
@@ -679,11 +763,10 @@ textarea:focus {
 
   .nav-links {
     position: absolute;
-    top: 8px;
+    top: 0;
     right: 120px;
     display: flex;
-    margin-top: 25px;
-    padding: 0;
+    margin-top: 20px;
     color: #0018f0;
     font-size: 18px;
   }
@@ -692,22 +775,47 @@ textarea:focus {
     margin: 0 10px;
     cursor: pointer;
     color: #344563;
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: bold;
   }
 
   .social-icons {
-    margin: 20px;
-    margin-left: 55px;
-    margin-top: 10px;
+    margin: 10px 0 20px 0;
+  }
+
+  .icons {
+    padding: 5px 0 5px 0;
+  }
+
+  .icons:hover {
+    background-color: rgba(0, 0, 255, 0.116);
+    text-align: center;
+    border-radius: 20%;
+    padding: 10px 0 10px 20px;
+    box-shadow: 2px 2px 2px #0000006e;
+  }
+
+  .social-icons:hover {
+    gap: 10px;
+  }
+
+  .fa-2xl {
+    font-size: 26px;
   }
 
   header {
-    padding: 23px;
-    padding-bottom: 75px;
+    padding: 5px 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
   }
 
   .headline-heading {
-    margin: 10px 64px;
+    margin: 10px 30px 10px 0;
     font-size: 48px;
     align-items: center;
     color: #172b4d;
@@ -715,25 +823,25 @@ textarea:focus {
 
   .headline-paragraph {
     margin: 10px 0;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     color: #344563;
-    margin-left: 65px;
   }
 
   .headline-sm-suport {
-    margin: 0 60px;
+    margin: 0;
   }
 
   /* finish headline section */
 
   /* start works-cards section */
   .works-card > img {
-    width: 100%;
-    height: 400px;
+    width: 100% auto;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 10px;
   }
 
   .works-card:nth-child(even) > img {
@@ -754,7 +862,7 @@ textarea:focus {
   .headline-skill-container {
     display: flex;
     flex-direction: row;
-    height: 590px;
+    height: 600px;
   }
 
   .about-headline {
@@ -775,14 +883,13 @@ textarea:focus {
   }
 
   .about .social-icons {
-    margin-left: 45px;
     width: 200px;
     height: 40px;
   }
 
   .about button {
-    margin-left: 45px;
     margin-top: 0;
+    box-shadow: 2px 2px 10px black;
   }
 
   .skills-1 {
@@ -799,18 +906,34 @@ textarea:focus {
     gap: 10px;
   }
 
+  .about-skill-body.show {
+    display: block;
+  }
+
   .about-skill-body {
-    padding: 20px;
-    height: 128px;
-    width: 105px;
-    display: flex;
+    padding: 5px  22px;
+    height: 50px;
+    display: none;
+    box-shadow: 3px 3px 8px 2px black;
     flex-direction: column;
-    gap: 16px;
+    gap: 10px;
     align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  .frame {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
   }
 
   .about-skill-text {
     margin-left: -28px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #142cff;
   }
 
   .social {
