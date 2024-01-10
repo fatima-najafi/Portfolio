@@ -1,51 +1,78 @@
+/* eslint-disable indent */
+/* eslint-disable quotes */
+
 const projects = [
   {
-    featureImg: './assets/card1.png',
-    projectName: 'Tonic',
+    featureImg: './assets/final-p.png',
+    projectName: 'Fenaj Schedula ',
     projectDescription:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      ' I engineered a full-stack app, utilizing React for the frontend and Ruby on Rails for the backend, creating a seamless spa session listing and booking feature. The app includes an authenticated system using JWT for enhanced security. By prioritizing a responsive and intuitive design, I aimed to elevate the overall user experience..',
+    projectLang: ['React', 'Ruby on Rails', 'PostgreSQL'],
+    projectDetails: {
+      orgnization: 'GROUP',
+      type: 'Full-Stack Developer',
+      year: 2023,
+    },
+    seeLive: 'https://fenaj-schedula.onrender.com/',
+    seeSource: 'https://github.com/fatima-najafi/fenaj-schedula_API',
+  },
+  {
+    featureImg: './assets/chef-table.jpg',
+    projectName: "Chef's Table Project ",
+    projectDescription:
+      'This is my second Microverse capstone project! 🎉🔧 Built with HTML, CSS, and JavaScript, this project showcases my skills in creating dynamic web applications. 💻💡🎨 It features dynamic data rendering, an API for meal fetching, and GET and POST requests for user interaction. 🍽️🔄💼 I am proud of the professional design and functionality of this project.🌟',
     projectLang: ['HTML', 'CSS', 'JavaScript'],
-    projectDetails: { orgnization: 'CANOPY', type: 'Back END Dev', year: 2015 },
-    seeLive: 'https://github.com/fatima-najafi/Portfolio',
+    projectDetails: { orgnization: 'GROUP', type: 'Front End Dev', year: 2023 },
+    seeLive: 'https://github.com/fatima-najafi/budget-app',
     seeSource: 'https://github.com/fatima-najafi/Portfolio.git',
   },
   {
-    featureImg: './assets/card3.png',
-    projectName: 'Multi-Post Stories',
+    featureImg: './assets/nGgVuK2LCP2J.gif',
+    projectName: 'KBU-CSF Education ',
     projectDescription:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    projectLang: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
+      'This project is a landing page about Kabul University 🏫, specifically highlighting the computer science faculty. It showcases various programs 📚 and introduces the esteemed instructors 👩‍🏫👨‍🏫. The page also highlights the university partners and collaborations.The landing page is designed to be mobile-friendly 📱, with a responsive layout that adapts to different screen sizes. ',
+    projectLang: ['HTML', 'CSS', 'JavaScript'],
     projectDetails: {
-      orgnization: 'FACEBOOK',
-      type: 'Full Stack Dev',
-      year: 2016,
+      orgnization: 'SOLO',
+      type: ' Front-End Project',
+      year: 2023,
     },
-    seeLive: 'https://github.com/fatima-najafi/Portfolio',
-    seeSource: 'https://github.com/fatima-najafi/Portfolio.git',
+    seeLive: 'https://fatima-najafi.github.io/KBU-CSF-Education-Center/',
+    seeSource: 'https://github.com/fatima-najafi/capstone-project-module1',
   },
   {
-    featureImg: './assets/card2.png',
-    projectName: 'Facebook 360',
+    featureImg: './assets/new.png',
+    projectName: 'Budget-App Project ',
     projectDescription:
-      'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    projectLang: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
+      'Developed a mobile web application using Ruby on Rails for efficient budget management.Empowered users to monitor financial transactions seamlessly through categorized tracking.Showcased the versatility of Ruby on Rails in merging technology with financial control.🌐✨💸.',
+    projectLang: ['Ruby', 'Ruby on Rails', 'PostgreSQL'],
     projectDetails: {
-      orgnization: 'FACEBOOK',
-      type: 'Full Stack Dev',
-      year: 2017,
+      orgnization: 'Solo',
+      type: 'Back-End Project',
+      year: 2023,
     },
-    seeLive: 'https://github.com/fatima-najafi/Portfolio',
-    seeSource: 'https://github.com/fatima-najafi/Portfolio.git',
+    seeLive: 'https://rails-project-j3vc.onrender.com/',
+    seeSource: 'https://github.com/fatima-najafi/budget-app',
   },
   {
-    featureImg: './assets/card.png',
-    projectName: 'Uber Navigation',
+    featureImg: './assets/space.jpg',
+    projectName: 'Space-Travelers-Hub',
     projectDescription:
-      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    projectLang: ['HTML', 'Ruby', 'CSS', 'JavaScript'],
-    projectDetails: { orgnization: 'UBER', type: 'Front End Dev', year: 2017 },
-    seeLive: 'https://github.com/fatima-najafi/Portfolio',
-    seeSource: 'https://github.com/fatima-najafi/Portfolio.git',
+      'This project involves the development of a web application for a company specializing in commercial and scientific space travel services. 🚀 The application will enable users to book rockets and participate in curated space missions while integrating with real-time data from the SpaceX API. 🌌',
+    projectLang: ['HTML', 'CSS', 'React & Redux'],
+    projectDetails: { orgnization: 'GROUP', type: 'Front End Dev', year: 2023 },
+    seeLive: 'https://github.com/fatima-najafi/Space-Travelers-Hub',
+    seeSource: 'https://github.com/fatima-najafi/Space-Travelers-Hub',
+  },
+  {
+    featureImg: './assets/math.png',
+    projectName: 'Math-Magicians',
+    projectDescription:
+      '"The Math Magicians" is a single-page website 🌐🧮 that allows you to perform simple calculations just like a calculator. The website is built using React ⚛️ and features different pages that can be seamlessly navigated within the single-page format. 📄✨ Additionally, it offers a user-friendly interface and interactive design to enhance the calculation experience. 🖥️🔢',
+    projectLang: ['HTML', 'CSS', 'React & Redux'],
+    projectDetails: { orgnization: 'GROUP', type: 'Front End Dev', year: 2023 },
+    seeLive: 'https://github.com/fatima-najafi/Space-Travelers-Hub',
+    seeSource: 'https://github.com/fatima-najafi/Space-Travelers-Hub',
   },
 ];
 
@@ -61,16 +88,16 @@ projects.forEach((project, index) => {
             <p class='paragraph'>${project.projectDetails.orgnization}</p>
             <i class='fa-solid fa-circle works-card-client-counter'></i>
             <p class='works-card-client-role paragraph'>${
-  project.projectDetails.type
-}</p>
+              project.projectDetails.type
+            }</p>
             <i class='fa-solid fa-circle works-card-client-counter'></i>
             <p class='works-card-client-year paragraph'>${
-  project.projectDetails.year
-}</p>
+              project.projectDetails.year
+            }</p>
         </div>
         <p class='paragraph works-card-paragraph'>${
-  project.projectDescription
-}</p>
+          project.projectDescription
+        }</p>
          <ul class="works-card-tags">
               <li class="works-card-tag">${project.projectLang[0]}</li>
               <li class="works-card-tag">${project.projectLang[1]}</li>
@@ -91,27 +118,15 @@ projects.forEach((project, index) => {
     <div class='d-flex detail-card-header'>
         <div>
             <h3 class='detail-card-heading'>${project.projectName}</h3>
-            <div class='d-flex works-card-client'>
-                <p class='paragraph'>${project.projectDetails.orgnization}</p>
-                <i class='fa-solid fa-circle works-card-client-counter'></i>
-                <p class='works-card-client-role paragraph'>${
-  project.projectDetails.type
-}</p>
-                <i class='fa-solid fa-circle works-card-client-counter'></i>
-                <p class='works-card-client-year paragraph'>${
-  project.projectDetails.year
-}</p>
-            </div>
         </div>
         <i id='detail-card-close-${
-  index + 1
-}' class='fa-solid fa-xmark detail-card-cross-icon'></i>
+          index + 1
+        }' class='fa-solid fa-xmark detail-card-cross-icon'></i>
     </div>
     <div class='detail-card-display-img-container'>
         <img class='' src='${project.featureImg}' alt='Recent Work'>
     </div>
     <div class='detail-card-body'>
-        <p class='paragraph'>${project.projectDescription}</p>
         <div class='detail-card-body-right'>
             <ul class="d-flex detail-card-body-tags">
               <li class="detail-card-body-tag">${project.projectLang[0]}</li>
@@ -119,12 +134,17 @@ projects.forEach((project, index) => {
               <li class="detail-card-body-tag">${project.projectLang[2]}</li>
             </ul>
             <div class='detail-card-body-right-button-container'>
-                <button class='detail-card-button' src='${
-  project.seeLive
-}'>See Live
-                 <i class='fa-solid fa-arrow-up-right-from-square'></i></button>
-                <button class='detail-card-button'  src='${project.seeSource}'>
-                See Source <i class='fa-brands fa-github'></i></button>
+                <!-- Use <a> instead of <button> for external links -->
+                <a href='${
+                  project.seeLive
+                }' target='_blank' class='detail-card-button'>
+                  See Live <i class='fa-solid fa-arrow-up-right-from-square'></i>
+                </a>
+                <a href='${
+                  project.seeSource
+                }' target='_blank' class='detail-card-button'>
+                  See Source <i class='fa-brands fa-github'></i>
+                </a>
             </div>
         </div>
     </div>
@@ -137,16 +157,22 @@ const project1 = document.getElementById('open-project-details-1');
 const project2 = document.getElementById('open-project-details-2');
 const project3 = document.getElementById('open-project-details-3');
 const project4 = document.getElementById('open-project-details-4');
+const project5 = document.getElementById('open-project-details-5');
+const project6 = document.getElementById('open-project-details-6');
 
 const projectClose1 = document.getElementById('detail-card-close-1');
 const projectClose2 = document.getElementById('detail-card-close-2');
 const projectClose3 = document.getElementById('detail-card-close-3');
 const projectClose4 = document.getElementById('detail-card-close-4');
+const projectClose5 = document.getElementById('detail-card-close-5');
+const projectClose6 = document.getElementById('detail-card-close-6');
 
 const detailCard1 = document.getElementById('detail-card-1');
 const detailCard2 = document.getElementById('detail-card-2');
 const detailCard3 = document.getElementById('detail-card-3');
 const detailCard4 = document.getElementById('detail-card-4');
+const detailCard5 = document.getElementById('detail-card-5');
+const detailCard6 = document.getElementById('detail-card-6');
 
 // Card 1
 project1.addEventListener('click', () => {
@@ -183,4 +209,56 @@ project4.addEventListener('click', () => {
 projectClose4.addEventListener('click', () => {
   detailCard4.classList.toggle('detail-card--show');
   body.classList.remove('blur');
+});
+// Card 5
+project5.addEventListener('click', () => {
+  detailCard5.classList.toggle('detail-card--show');
+  body.classList.add('blur');
+});
+projectClose5.addEventListener('click', () => {
+  detailCard5.classList.toggle('detail-card--show');
+  body.classList.remove('blur');
+});
+// Card 6
+project6.addEventListener('click', () => {
+  detailCard6.classList.toggle('detail-card--show');
+  body.classList.add('blur');
+});
+projectClose6.addEventListener('click', () => {
+  detailCard6.classList.toggle('detail-card--show');
+  body.classList.remove('blur');
+});
+
+// Get Resume
+document.getElementById('resumeButton').addEventListener('click', () => {
+  const resumeLink = 'https://docs.google.com/document/d/13n3StXYm02WWComOM-jIg9rDntzG4opHIZ9iMm6HoNE/edit?usp=sharing';
+  window.open(resumeLink, '_blank');
+});
+
+// Skills
+const toggleIcons = document.querySelectorAll('.toggleIcon');
+
+toggleIcons.forEach((icon) => {
+  icon.addEventListener('click', function () {
+    if (this.classList.contains('fa-angle-down')) {
+      this.classList.add('fa-angle-right');
+      this.classList.remove('fa-angle-down');
+      const skillBodies = this.closest(
+        '.about-skill-container',
+      ).querySelectorAll('.about-skill-body');
+      skillBodies.forEach((body) => {
+        body.classList.remove('show');
+      });
+    } else {
+      this.classList.add('fa-angle-down');
+      this.classList.remove('fa-angle-right');
+
+      const skillBodies = this.closest(
+        '.about-skill-container',
+      ).querySelectorAll('.about-skill-body');
+      skillBodies.forEach((body) => {
+        body.classList.add('show');
+      });
+    }
+  });
 });
