@@ -6,7 +6,7 @@ const projects = [
     featureImg: './assets/final-p.png',
     projectName: 'Fenaj Schedula ',
     projectDescription:
-      ' I engineered a full-stack app, utilizing React for the frontend and Ruby on Rails for the backend, creating a seamless spa session listing and booking feature. The app includes an authenticated system using JWT for enhanced security. By prioritizing a responsive and intuitive design, I aimed to elevate the overall user experience..',
+      ' I engineered a full-stack app, utilizing React for the frontend and Ruby on Rails for the backend, creating a seamless spa session listing and booking feature. The app includes an authenticated system using JWT for enhanced security. By prioritizing a responsive and intuitive design, I aimed to elevate the overall user experience.',
     projectLang: ['React', 'Ruby on Rails', 'PostgreSQL'],
     projectDetails: {
       orgnization: 'GROUP',
@@ -16,21 +16,12 @@ const projects = [
     seeLive: 'https://fenaj-schedula.onrender.com/',
     seeSource: 'https://github.com/fatima-najafi/fenaj-schedula_API',
   },
-  {
-    featureImg: './assets/chef-table.jpg',
-    projectName: "Chef's Table Project ",
-    projectDescription:
-      'This is my second Microverse capstone project! 🎉🔧 Built with HTML, CSS, and JavaScript, this project showcases my skills in creating dynamic web applications. 💻💡🎨 It features dynamic data rendering, an API for meal fetching, and GET and POST requests for user interaction. 🍽️🔄💼 I am proud of the professional design and functionality of this project.🌟',
-    projectLang: ['HTML', 'CSS', 'JavaScript'],
-    projectDetails: { orgnization: 'GROUP', type: 'Front End Dev', year: 2023 },
-    seeLive: 'https://github.com/fatima-najafi/budget-app',
-    seeSource: 'https://github.com/fatima-najafi/Portfolio.git',
-  },
+
   {
     featureImg: './assets/nGgVuK2LCP2J.gif',
     projectName: 'KBU-CSF Education ',
     projectDescription:
-      'This project is a landing page about Kabul University 🏫, specifically highlighting the computer science faculty. It showcases various programs 📚 and introduces the esteemed instructors 👩‍🏫👨‍🏫. The page also highlights the university partners and collaborations.The landing page is designed to be mobile-friendly 📱, with a responsive layout that adapts to different screen sizes. ',
+      "This project is a landing page about Kabul University, specifically highlighting the Computer Science faculty. It showcases various programs and introduces esteemed instructors. The page also emphasizes the university's significant partner collaborations. The landing page is designed to be mobile-friendly 📱, featuring a responsive layout that adapts to different screen sizes.",
     projectLang: ['HTML', 'CSS', 'JavaScript'],
     projectDetails: {
       orgnization: 'SOLO',
@@ -44,7 +35,7 @@ const projects = [
     featureImg: './assets/new.png',
     projectName: 'Budget-App Project ',
     projectDescription:
-      'Developed a mobile web application using Ruby on Rails for efficient budget management.Empowered users to monitor financial transactions seamlessly through categorized tracking.Showcased the versatility of Ruby on Rails in merging technology with financial control.🌐✨💸.',
+      'Developed a mobile web application using Ruby on Rails for efficient budget management. Empowering users to seamlessly monitor financial transactions through categorized tracking, the application showcases the versatility of Ruby on Rails in merging technology with financial control. 🌐✨💸',
     projectLang: ['Ruby', 'Ruby on Rails', 'PostgreSQL'],
     projectDetails: {
       orgnization: 'Solo',
@@ -61,18 +52,28 @@ const projects = [
       'This project involves the development of a web application for a company specializing in commercial and scientific space travel services. 🚀 The application will enable users to book rockets and participate in curated space missions while integrating with real-time data from the SpaceX API. 🌌',
     projectLang: ['HTML', 'CSS', 'React & Redux'],
     projectDetails: { orgnization: 'GROUP', type: 'Front End Dev', year: 2023 },
-    seeLive: 'https://github.com/fatima-najafi/Space-Travelers-Hub',
+    seeLive: 'https://nassa.onrender.com/',
     seeSource: 'https://github.com/fatima-najafi/Space-Travelers-Hub',
   },
   {
     featureImg: './assets/math.png',
     projectName: 'Math-Magicians',
     projectDescription:
-      '"The Math Magicians" is a single-page website 🌐🧮 that allows you to perform simple calculations just like a calculator. The website is built using React ⚛️ and features different pages that can be seamlessly navigated within the single-page format. 📄✨ Additionally, it offers a user-friendly interface and interactive design to enhance the calculation experience. 🖥️🔢',
+      'The Math Magicians is a single-page website 🌐🧮 that allows you to perform simple calculation. The website is built using React ⚛️ and features different pages that can be seamlessly navigated within the single-page format. 📄✨ Additionally, it offers a user-friendly interface and interactive design to enhance the calculation experience. 🖥️🔢',
     projectLang: ['HTML', 'CSS', 'React & Redux'],
     projectDetails: { orgnization: 'GROUP', type: 'Front End Dev', year: 2023 },
-    seeLive: 'https://github.com/fatima-najafi/Space-Travelers-Hub',
-    seeSource: 'https://github.com/fatima-najafi/Space-Travelers-Hub',
+    seeLive: 'https://math-vxah.onrender.com/',
+    seeSource: 'https://github.com/fatima-najafi/math-magicians',
+  },
+  {
+    featureImg: './assets/chef-table.jpg',
+    projectName: "Chef's Table Project ",
+    projectDescription:
+      'My second Microverse capstone project. Built with HTML, CSS, and JavaScript, this project showcases my skills in creating dynamic web applications. 💻💡🎨 It features dynamic data rendering, an API for meal fetching, and GET and POST request interactions. I am proud of the professional design and functionality of this project. 🌟',
+    projectLang: ['HTML', 'CSS', 'JavaScript'],
+    projectDetails: { orgnization: 'GROUP', type: 'Front End Dev', year: 2023 },
+    seeLive: 'https://fatima-najafi.github.io/javascript-capston-project/src/',
+    seeSource: 'https://github.com/fatima-najafi/javascript-capston-project',
   },
 ];
 
@@ -231,7 +232,7 @@ projectClose6.addEventListener('click', () => {
 
 // Get Resume
 document.getElementById('resumeButton').addEventListener('click', () => {
-  const resumeLink = 'https://docs.google.com/document/d/13n3StXYm02WWComOM-jIg9rDntzG4opHIZ9iMm6HoNE/edit?usp=sharing';
+  const resumeLink = 'https://docs.google.com/document/d/1FEioKGNdS5gKTzG2INkdVqkKl8vvOpbRrA5pdhHzqVg/edit?usp=sharing';
   window.open(resumeLink, '_blank');
 });
 
