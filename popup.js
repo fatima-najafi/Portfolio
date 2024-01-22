@@ -152,7 +152,7 @@ projects.forEach((project, index) => {
   </div>`;
   body.appendChild(popup);
 });
-// Modal Popup Ends Here
+// Modal Popup Ends Here...
 
 const project1 = document.getElementById('open-project-details-1');
 const project2 = document.getElementById('open-project-details-2');
