@@ -232,7 +232,7 @@ projectClose6.addEventListener('click', () => {
 
 // Get Resume
 document.getElementById('resumeButton').addEventListener('click', () => {
-  const resumeLink = 'https://docs.google.com/document/d/1FEioKGNdS5gKTzG2INkdVqkKl8vvOpbRrA5pdhHzqVg/edit?usp=sharing';
+  const resumeLink = 'https://drive.google.com/file/d/13u_AnIf75kwoSrTwz_bZUFJTbf_XEDNk/view?usp=sharing';
   window.open(resumeLink, '_blank');
 });
 
